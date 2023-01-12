@@ -98,6 +98,7 @@
     }
   },
   "dependencies": {
-    "reveal.js": "^4.4.0"
+    "reveal.js": "^4.4.0",
+    "revealjs-animated": "^1.2.2"
   }
 }
