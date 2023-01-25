@@ -442,30 +442,15 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   background-color: #f29813;
   color: white;
 }
-.reveal blockquote, .reveal q {
-  font-style: italic;
-}
 .reveal blockquote {
-  padding: 0 2em 0.5em;
-  margin: 0 1.5em 0.5em;
-  text-align: center;
-  font-size: 1em;
-}
-.reveal blockquote p {
-  margin: 0;
-}
-.reveal blockquote i {
-  font-style: normal;
-}
-.reveal blockquote b {
-  display: block;
-  margin-top: 0.5em;
-  font-weight: normal;
-  font-size: smaller;
-  font-style: normal;
-}
-.reveal blockquote b i {
-  font-style: italic;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #f0f7fb;
+  border: solid 1px #3498db;
+  border-radius: 6px;
+  line-height: 18px;
+  overflow: hidden;
+  padding: 12px;
 }
 .reveal kbd {
   font-weight: bold;

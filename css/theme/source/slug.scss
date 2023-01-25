@@ -112,13 +112,24 @@ $backgroundColor: #FFF;
     color: white;
   }
 
-  blockquote, q {font-style: italic;}
-  blockquote {padding: 0 2em 0.5em; margin: 0 1.5em 0.5em; text-align: center; font-size: 1em;}
-  blockquote p {margin: 0;}
-  blockquote i {font-style: normal;}
-  blockquote b {display: block; margin-top: 0.5em; font-weight: normal; font-size: smaller; font-style: normal;}
-  blockquote b i {font-style: italic;}
-  
+  // blockquote, q {font-style: italic;}
+  // blockquote {padding: 0 2em 0.5em; margin: 0 1.5em 0.5em; text-align: center; font-size: 1em;}
+  blockquote {
+     -moz-border-radius: 6px;
+     -webkit-border-radius: 6px;
+     background-color: #f0f7fb;
+     border: solid 1px #3498db;
+     border-radius: 6px;
+     line-height: 18px;
+//     mc-auto-number-format: '{b}Note: {/b}';
+     overflow: hidden;
+     padding: 12px;
+  }
+  // blockquote p {margin: 0;}
+  // blockquote i {font-style: normal;}
+  // blockquote b {display: block; margin-top: 0.5em; font-weight: normal; font-size: smaller; font-style: normal;}
+  // blockquote b i {font-style: italic;}
+
   kbd {font-weight: bold; font-size: 1em;}
   sup {font-size: smaller; line-height: 1px;}
   
